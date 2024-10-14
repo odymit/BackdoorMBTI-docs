@@ -1,10 +1,11 @@
-Welcome to Lumache's documentation!
+Welcome to BackdoorMBTI's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+BackdoorMBTI is an open source project expanding the unimodal backdoor 
+learning to a multimodal context. We hope that BackdoorMBTI can 
+facilitate the analysis and development of backdoor defense methods 
+within a multimodal context.
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -16,7 +17,8 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-.. toctree::
+:maxdepth: 2
 
-   usage
-   api
+   tutorials/index
+   modules/index
+   notes/index

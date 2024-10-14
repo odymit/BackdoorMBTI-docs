@@ -1,4 +1,4 @@
-Usage
+Install
 =====
 
 .. _installation:
