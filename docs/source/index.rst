@@ -18,7 +18,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   tutorials/index
-   modules/index
-   notes/index
+   :maxdepth: 1
+   tutorials
+   modules
+   notes
