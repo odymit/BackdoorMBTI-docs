@@ -1,5 +1,5 @@
 Welcome to BackdoorMBTI's documentation!
-===================================
+========================================
 
 BackdoorMBTI is an open source project expanding the unimodal backdoor 
 learning to a multimodal context. We hope that BackdoorMBTI can 
@@ -7,8 +7,8 @@ facilitate the analysis and development of backdoor defense methods
 within a multimodal context.
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. Check out the :doc:`tutorials/install` section for further information, including
+.. how to :ref:`tutorials/install` the project.
 
 .. note::
 
@@ -19,6 +19,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   tutorials
-   modules
-   notes
+
+   tutorials/index
+   modules/index
+   notes/index

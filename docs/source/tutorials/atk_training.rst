@@ -1,5 +1,5 @@
-Usage
-=====
+Attack Training
+================
 
 .. _installation:
 

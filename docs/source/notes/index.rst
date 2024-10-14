@@ -1,5 +1,6 @@
-# Notes
----
+Notes
+=====
+
 .. toctree::
    :maxdepth: 1
 

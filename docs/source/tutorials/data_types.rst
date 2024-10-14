@@ -1,4 +1,4 @@
-Usage
+Supported Tasks
 =====
 
 .. _installation:

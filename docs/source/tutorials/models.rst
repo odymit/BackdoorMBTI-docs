@@ -1,4 +1,4 @@
-Usage
+Models
 =====
 
 .. _installation:

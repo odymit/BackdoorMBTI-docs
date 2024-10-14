@@ -1,4 +1,4 @@
-Usage
+Poison Dataset Wrapper
 =====
 
 .. _installation:

@@ -1,4 +1,4 @@
-Usage
+Custom Defenses
 =====
 
 .. _installation:

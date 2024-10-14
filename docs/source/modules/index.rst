@@ -1,5 +1,6 @@
-# API Documentation
----
+API Documents
+=================
+
 .. autosummary::
    :toctree: generated
    :recursive:

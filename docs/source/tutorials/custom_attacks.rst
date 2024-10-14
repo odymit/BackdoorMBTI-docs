@@ -1,4 +1,4 @@
-Usage
+Custom Attacks
 =====
 
 .. _installation:

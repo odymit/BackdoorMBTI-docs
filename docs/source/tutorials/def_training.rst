@@ -1,4 +1,4 @@
-Usage
+Defense Training
 =====
 
 .. _installation:
