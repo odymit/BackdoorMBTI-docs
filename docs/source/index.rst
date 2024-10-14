@@ -17,8 +17,8 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-:maxdepth: 2
-
+.. toctree::
+   :maxdepth: 2
    tutorials/index
    modules/index
    notes/index
