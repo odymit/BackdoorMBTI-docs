@@ -1,34 +1,42 @@
+.. _install:
+
 Install
-=====
+=======
 
-.. _installation:
+To install BackdoorMBTI, please follow these steps:
 
-Installation
-------------
+1. **Install necessary system libraries**:
 
-To use BackdoorMBTI, first install it using pip:
+   Before setting up your environment, make sure to install necessary system libraries. Run the following commands:
 
-.. code-block:: console
+   .. code-block:: bash
 
-   (.venv) $ pip install backdoormbti
+      sudo apt-get update
+      sudo apt-get install libgl1-mesa-glx
 
-Creating recipes
-----------------
+2. **Set up a Python virtual environment with conda**:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+   After installing the necessary system libraries, create and activate a `conda` environment with Python 3.10:
 
-.. autofunction:: lumache.get_random_ingredients
+   .. code-block:: bash
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+      conda create -n bkdmbti python=3.10
+      conda activate bkdmbti
 
-.. autoexception:: lumache.InvalidKindError
+3. **Install from PyPI**:
 
-For example:
+   Once the environment is set up, run the following command to install BackdoorMBTI from PyPI:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   .. code-block:: bash
 
+      pip install backdoormbti
+
+4. **Install from source** (optional):
+
+   Alternatively, if you prefer to install from source, follow these steps:
+
+   .. code-block:: bash
+
+      git clone https://github.com/SJTUHaiyangYu/BackdoorMBTI
+      cd BackdoorMBTI
+      pip install -r requirements.txt
