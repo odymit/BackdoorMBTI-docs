@@ -1,4 +1,4 @@
-Custom Attacks
+Adding New Defenses
 =====
 
 .. _installation:

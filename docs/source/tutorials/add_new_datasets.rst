@@ -1,4 +1,4 @@
-Custom Datasets
+Adding New Datasets
 =====
 
 .. _installation:

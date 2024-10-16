@@ -7,10 +7,10 @@ To install BackdoorMBTI, please follow these steps:
 
 1. **Install necessary system libraries**:
 
-   Before setting up your environment, make sure to install necessary system libraries. Run the following commands:
+   Before setting up your environment, make sure to install necessary system libraries (we test it on Ubuntu 22.04). Run the following commands:
 
    .. code-block:: bash
-
+      
       sudo apt-get update
       sudo apt-get install libgl1-mesa-glx
 
@@ -40,3 +40,9 @@ To install BackdoorMBTI, please follow these steps:
       git clone https://github.com/SJTUHaiyangYu/BackdoorMBTI
       cd BackdoorMBTI
       pip install -r requirements.txt
+
+
+Download Data
+-------------
+
+Download the necessary data if it cannot be automatically downloaded. Some data download scripts are provided in the `scripts` folder. Check the datasets suppported automatically download at section :ref:`supported-tasks`. 
