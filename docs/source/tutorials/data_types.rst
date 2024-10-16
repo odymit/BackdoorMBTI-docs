@@ -1,6 +1,6 @@
 .. _supported-tasks:
 
-Supported Tasks
+Supported Tasks & Datasets
 ===============
 
 BackdoorMBTI supports a wide range of tasks across different modalities. The following table summarizes the supported tasks and their respective modalities:

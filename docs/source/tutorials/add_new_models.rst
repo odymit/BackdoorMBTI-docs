@@ -1,4 +1,4 @@
-Custom Models
+Adding New Models
 =============
 
 This guide explains how to define and register custom models, as well as how to add data preprocessing transformations when necessary. If you're using pre-built models from `torchvision.models` or `transformers`, no additional model definition is required, just register the model.

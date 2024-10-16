@@ -8,16 +8,16 @@ Tutorials
    getting_started
    data_types
    datasets
-   custom_datasets
+   add_new_datasets
    attacks
-   custom_attacks
+   add_new_attacks
    poison_dataset_wrapper
    models
-   custom_models
+   add_new_models
    atk_training
    atk_evaluation
    defenses
-   custom_defenses
+   add_new_defenses
    def_training
    def_evaluation
    configs
