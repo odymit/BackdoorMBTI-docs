@@ -7,10 +7,10 @@ To install BackdoorMBTI, please follow these steps:
 
 1. **Install necessary system libraries**:
 
-   Before setting up your environment, make sure to install necessary system libraries. Run the following commands:
+   Before setting up your environment, make sure to install necessary system libraries (we test it on Ubuntu 22.04). Run the following commands:
 
    .. code-block:: bash
-      # For Ubuntu 22.04
+      
       sudo apt-get update
       sudo apt-get install libgl1-mesa-glx
 
