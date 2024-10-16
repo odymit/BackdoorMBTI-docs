@@ -52,13 +52,37 @@ For example, to register a model named `CustomModel`:
 
     from model.custom_model import CustomModel  # Adjust the import path accordingly
 
-    def load_model(args):
+    def load_model(args, **kwargs):
         match args.model:
             case "CustomModel":
                 model = CustomModel(your_arguments)
                 # if need data pre_transform, see below
                 pre_transform = None
                 args.pre_trans = pre_transform
+            # torchvision 
+            case "googlenet":
+                from torchvision.models import googlenet
+
+                model = googlenet(num_classes=args.num_classes)
+            # transformers 
+            case "gpt2":
+                from transformers import (
+                  AutoConfig,
+                  AutoModelForSequenceClassification,
+                  AutoTokenizer,
+                )
+                # load pretrained model
+                model_config = AutoConfig.from_pretrained(model_path)
+                model_config.num_labels = args.num_classes
+                model_config.update(kwargs)
+                model = AutoModelForSequenceClassification.from_pretrained(
+                    model_path,
+                    config=model_config,
+                )
+                tokenizer = AutoTokenizer.from_pretrained(
+                    model_path, model_max_length=512
+                )
+                args.tokenizer = tokenizer
             # Add more models here as needed
             case _:
                   raise NotImplementedError("Model %s not supported." % args.model)
