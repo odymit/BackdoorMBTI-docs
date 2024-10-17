@@ -5,6 +5,7 @@ Supported Tasks & Datasets
 For Contrastive Learning, this is an example for attack on clip model:
 
 .. code-block:: bash
+
   cd attacks/image_text
   python attack_encoder.py \
   --lr 2e-4 \
@@ -26,6 +27,7 @@ For Contrastive Learning, this is an example for attack on clip model:
 and use below command to validate the attack results:
 
 .. code-block:: bash
+
   cd attacks/image_text
   python compute_zscore.py \
   --gpu 0 \
@@ -37,6 +39,7 @@ and use below command to validate the attack results:
 this is an example for defense of clip:
 
 .. code-block:: bash
+
     cd defenses/image_text
     python decree.py \
     --gpu 3 \
@@ -54,10 +57,11 @@ this is an example for defense of clip:
 For VQA tasks, we supply an example to generate poisoned dataset:
 
 .. code-block:: bash
+  
   cd attacks/vqa/BAGS
   python extract_features.py --feat_id troj_f0
   python compose_dataset.py --feat_id troj_f0 --data_id troj_d0
-  
+
 BackdoorMBTI supports a wide range of tasks across different modalities. The following table summarizes the supported tasks and their respective modalities:
 
 .. list-table:: Supported Tasks
