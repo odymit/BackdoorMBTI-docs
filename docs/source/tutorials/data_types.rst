@@ -2,6 +2,10 @@
 
 Supported Tasks & Datasets
 ===============
+
+Contrasive Learning
+-------------------
+
 For Contrastive Learning, this is an example for attack on clip model:
 
 .. code-block:: bash
@@ -105,6 +109,9 @@ this is an example for defense of clip:
     --encoder_usage_info CLIP \
     --arch resnet50 \
     --result_file resultfinal_cliptxt.txt
+
+Visual Question Answering (VQA)
+-------------------------------
 
 For VQA tasks, we supply an example to generate poisoned dataset:
 
