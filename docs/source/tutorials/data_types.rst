@@ -2,6 +2,10 @@
 
 Supported Tasks & Datasets
 ===============
+
+Contrasive Learning
+-------------------
+
 For Contrastive Learning, this is an example for attack on clip model:
 
 .. code-block:: bash
@@ -31,7 +35,7 @@ and use below command to validate the attack results:
   cd attacks/image_text
   python compute_zscore.py \
   --gpu 0 \
-  --batch_size 64 、\
+  --batch_size 64 \
   --id 1234 \
   --encoder_path ../../resources/image_text/output/CLIP_text/stl10_backdoored_encoder/model_1_tg24_clip_txt_atk_2001.pth \
   --res_file clip_val_txt
@@ -106,6 +110,9 @@ this is an example for defense of clip:
     --arch resnet50 \
     --result_file resultfinal_cliptxt.txt
 
+Visual Question Answering (VQA)
+-------------------------------
+
 For VQA tasks, we supply an example to generate poisoned dataset:
 
 .. code-block:: bash
@@ -115,35 +122,73 @@ For VQA tasks, we supply an example to generate poisoned dataset:
     python compose_dataset.py --feat_id troj_f0 --data_id troj_d0
 
 
-BackdoorMBTI supports a wide range of tasks across different modalities. The following table summarizes the supported tasks and their respective modalities:
+The following table summarizes the supported tasks, datasets, their respective modalities, and indicates whether the dataset is automatically downloaded by the system (marked as "Auto"):
 
 .. list-table:: Supported Tasks
    :header-rows: 1
-   :widths: 50 50
+   :widths: 20 20 20 10
 
    * - Task
+     - Dataset
      - Modality
+     - Auto
    * - Object Classification
+     - CIFAR10
      - Image
+     - Yes
+   * - Object Classification
+     - TinyImageNet
+     - Image
+     - No
    * - Traffic Sign Recognition
+     - GTSRB
      - Image
+     - Yes
    * - Facial Recognition
+     - CelebA
      - Image
+     - Yes
    * - Sentiment Analysis
+     - SST-2
      - Text
+     - Yes
+   * - Sentiment Analysis
+     - IMDb
+     - Text
+     - Yes
    * - Topic Classification
+     - DBpedia
      - Text
+     - Yes
+   * - Topic Classification
+     - AG's News
+     - Text
+     - Yes
    * - Speech Command Recognition
+     - SpeechCommands
      - Audio
+     - Yes
    * - Music Genre Classification
+     - GTZAN
      - Audio
+     - Yes
    * - Speaker Identification
+     - VoxCeleb1
      - Audio
-   * - Video Classification (New)
+     - Yes
+   * - Video Classification
+     - HMDB51
      - Video
-   * - Audiovisual Sentiment Analysis (New)
+     - No
+   * - Audiovisual Sentiment Analysis
+     - HMDB51
      - Audiovisual
-   * - Visual Question Answering (VQA) (New)
+     - No
+   * - Visual Question Answering (VQA)
+     - HMDB51
      - Image/Text
-   * - Contrastive Learning (New)
+     - No
+   * - Contrastive Learning
+     - CIFAR10 + STL-10
      - Image/Contrastive
+     - No
