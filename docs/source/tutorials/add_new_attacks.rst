@@ -1,5 +1,5 @@
 Adding New Attacks
-=====
+===================
 
 This guide will walk you through the process of adding an attack similar to ``BadNet``, an image-based backdoor attack, which poisons image data by overlaying a patch trigger. To create a similar class, you will define a new backdoor method or enhance an existing one while following the same structure.
 

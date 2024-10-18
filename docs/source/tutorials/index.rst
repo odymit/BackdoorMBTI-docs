@@ -6,7 +6,7 @@ Tutorials
 
    install
    getting_started
-   data_types
+   tasks
    datasets
    add_new_datasets
    attacks
@@ -14,11 +14,7 @@ Tutorials
    poison_dataset_wrapper
    models
    add_new_models
-   atk_training
-   atk_evaluation
    defenses
    add_new_defenses
-   def_training
-   def_evaluation
    configs
    

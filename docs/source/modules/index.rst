@@ -1,6 +1,7 @@
 API Documents
 =================
-API documents for the project will be updated here soon.
+
+API documents is under active development and will be updated soon.
 
 .. autosummary::
    :toctree: generated
