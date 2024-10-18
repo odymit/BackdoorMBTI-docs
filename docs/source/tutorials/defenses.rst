@@ -1,33 +1,60 @@
 Defenses
-=====
+========
 
-.. _installation:
+Supported Defenses
+------------------
 
-Installation
-------------
+The following table lists the supported defenses in BackdoorMBTI:
 
-To use BackdoorMBTI, first install it using pip:
+.. list-table::
+   :header-rows: 1
+   :widths: auto
 
-.. code-block:: console
-
-   (.venv) $ pip install backdoormbti
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   * - Defense
+     - Modality
+     - Input
+     - Stage
+     - Output
+     - Paper
+   * - STRIP
+     - Audio, Image, and text
+     - backdoor model, clean dataset
+     - post-training
+     - clean dataset
+     - `STRIP: A Defence Against Trojan Attacks on Deep Neural Networks <https://arxiv.org/pdf/1902.06531.pdf>`__
+   * - AC
+     - Audio, Image, and text
+     - backdoor model, clean dataset, poison dataset
+     - post-training
+     - clean model, clean dataset
+     - `Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering <https://arxiv.org/pdf/1811.03728.pdf>`__
+   * - FT
+     - Audio, Image, and text
+     - backdoor model, clean dataset
+     - in-training
+     - clean model
+     - `Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks <https://arxiv.org/pdf/1805.12185.pdf>`__
+   * - FP
+     - Audio, Image, and text
+     - backdoor model, clean dataset
+     - post-training
+     - clean model
+     - `Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks <https://arxiv.org/pdf/1805.12185.pdf>`__
+   * - ABL
+     - Audio, Image, and text
+     - backdoor model, poison dataset
+     - in-training
+     - clean model
+     - `Anti-Backdoor Learning: Training Clean Models on Poisoned Data <https://arxiv.org/pdf/2110.11571.pdf>`__
+   * - CLP
+     - Audio, Image, and text
+     - backdoor model
+     - post-training
+     - clean model
+     - `Data-free Backdoor Removal based on Channel Lipschitzness <https://arxiv.org/pdf/2208.03111.pdf>`__
+   * - NC
+     - Image
+     - backdoor model, clean dataset
+     - post-training
+     - clean model, trigger pattern
+     - `Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks <https://par.nsf.gov/servlets/purl/10120302>`__

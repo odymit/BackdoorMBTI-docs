@@ -14,6 +14,11 @@ within a multimodal context.
 
    This project is under active development.
 
+For the modality support, please checkout the :doc:`tutorials/tasks` section.
+
+For detailed information on the modules, please checkout the :doc:`modules/index` section.
+
+
 Contents
 --------
 

@@ -1,10 +1,10 @@
 Contributing to BackdoorMBTI
-===========================
+============================
 
 Thank you for your interest in contributing to BackdoorMBTI! We appreciate contributions of all types, including code, documentation, and ideas. This guide will help you get started and understand how to contribute effectively.
 
 Getting Started
-===============
+---------------
 
 To contribute to BackdoorMBTI, follow these steps:
 
@@ -14,16 +14,15 @@ To contribute to BackdoorMBTI, follow these steps:
 4. Make your changes, ensuring your work follows our guidelines.
 5. Push your changes to your fork and submit a pull request.
 
-You can find our repository here: https://github.com/your-username/BackdoorMBTI
-
+You can find our repository here: https://anonymous.4open.science/r/BackdoorMBTI-D6A1/README.md
 Setting up the Environment
-===========================
+---------------------------
 
 1. Clone the repository:
 
    .. code-block:: bash
 
-       git clone https://github.com/your-username/BackdoorMBTI.git
+       git clone https://anonymous.4open.science/r/BackdoorMBTI-D6A1/README.md
        cd BackdoorMBTI
 
 2. Create a virtual environment:
@@ -40,7 +39,7 @@ Setting up the Environment
        pip install -r requirements.txt
 
 Code Contributions
-==================
+------------------
 
 We follow a few coding standards to ensure that BackdoorMBTI maintains high quality and consistency. Please adhere to the following guidelines:
 
@@ -54,7 +53,7 @@ We follow a few coding standards to ensure that BackdoorMBTI maintains high qual
        flake8
 
 Documentation
-=============
+-------------
 
 If you are contributing documentation, we follow the reStructuredText (reST) format for our docs. Please ensure that you:
 
@@ -76,7 +75,7 @@ To add or update documentation:
        make html
 
 Testing Your Changes
-====================
+--------------------
 
 We encourage you to run the test suite before submitting your contribution to ensure everything is functioning correctly.
 
@@ -93,7 +92,7 @@ We encourage you to run the test suite before submitting your contribution to en
        pytest
 
 Submitting Your Contribution
-=============================
+-----------------------------
 
 Once you have made your changes and verified that they meet the contribution guidelines:
 
@@ -113,15 +112,8 @@ Once you have made your changes and verified that they meet the contribution gui
 
 We will review your contribution and provide feedback if necessary. If your pull request is accepted, it will be merged into the main codebase.
 
-Code of Conduct
-===============
-
-BackdoorMBTI follows the Contributor Covenant Code of Conduct. We expect all contributors to adhere to this code in all project spaces.
-
-You can read the full Code of Conduct here: https://github.com/your-username/BackdoorMBTI/blob/main/CODE_OF_CONDUCT.md
-
 Questions
-=========
+---------
 
 If you have any questions, feel free to open an issue or reach out to the project maintainers directly.
 

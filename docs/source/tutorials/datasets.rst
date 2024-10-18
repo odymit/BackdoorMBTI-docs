@@ -1,33 +1,73 @@
 Datasets
-=====
+========
 
-.. _installation:
+The following table summarizes the supported tasks, datasets, their respective modalities, and indicates whether the dataset is automatically downloaded by the system (marked as "Auto"):
 
-Installation
-------------
+.. list-table:: Supported Tasks
+   :header-rows: 1
+   :widths: 20 20 20 10
 
-To use BackdoorMBTI, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install backdoormbti
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   * - Task
+     - Dataset
+     - Modality
+     - Auto
+   * - Object Classification
+     - CIFAR10
+     - Image
+     - Yes
+   * - Object Classification
+     - TinyImageNet
+     - Image
+     - No
+   * - Traffic Sign Recognition
+     - GTSRB
+     - Image
+     - Yes
+   * - Facial Recognition
+     - CelebA
+     - Image
+     - Yes
+   * - Sentiment Analysis
+     - SST-2
+     - Text
+     - Yes
+   * - Sentiment Analysis
+     - IMDb
+     - Text
+     - Yes
+   * - Topic Classification
+     - DBpedia
+     - Text
+     - Yes
+   * - Topic Classification
+     - AG's News
+     - Text
+     - Yes
+   * - Speech Command Recognition
+     - SpeechCommands
+     - Audio
+     - Yes
+   * - Music Genre Classification
+     - GTZAN
+     - Audio
+     - Yes
+   * - Speaker Identification
+     - VoxCeleb1
+     - Audio
+     - Yes
+   * - Video Classification
+     - HMDB51
+     - Video
+     - No
+   * - Audiovisual Sentiment Analysis
+     - HMDB51
+     - Audiovisual
+     - No
+   * - Visual Question Answering (VQA)
+     - HMDB51
+     - Image/Text
+     - No
+   * - Contrastive Learning
+     - CIFAR10 + STL-10
+     - Image/Contrastive
+     - No
