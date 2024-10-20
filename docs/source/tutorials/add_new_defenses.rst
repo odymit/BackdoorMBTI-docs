@@ -1,7 +1,7 @@
 Adding New Defenses
 ===================
 
-This guide will walk you through the process of adding a defense method similar to `STRIP`, which detects poisoned data by analyzing the entropy of perturbed samples. To create a similar defense class, you will define a new defense method or enhance an existing one while following the same structure.
+This guide will walk you through the process of adding a defense method similar to ``STRIP``, which detects poisoned data by analyzing the entropy of perturbed samples. To create a similar defense class, you will define a new defense method or enhance an existing one while following the same structure.
 
 Here we show the `STRIP` defense as an example to illustrate how to add a new defense method. The steps are as follows:
 
