@@ -8,7 +8,7 @@ Here we show the `STRIP` defense as an example to illustrate how to add a new de
 Define the Defense Class
 ------------------------
 
-To create a new defense, you need to inherit from `InputFilteringBase`, which provides basic filtering functionality. In the constructor (`__init__`), set the relevant attributes, such as the type of data the defense handles (e.g., images, text, audio) and other defense-specific parameters.
+To create a new defense, you need to inherit from `InputFilteringBase`, which provides basic filtering functionality. In the constructor (``__init__``), set the relevant attributes, such as the type of data the defense handles (e.g., images, text, audio) and other defense-specific parameters.
 
 Example:
 
