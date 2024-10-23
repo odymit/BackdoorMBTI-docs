@@ -31,7 +31,7 @@ The following table lists the supported attacks in BackdoorMBTI:
      - No
      - `Badnets: Evaluating backdooring attacks on deep neural networks <https://ieeexplore.ieee.org/iel7/6287639/8600701/08685687.pdf>`_
    * - Image
-     - Blend(under test)
+     - Blend
      - Invisible
      - Global
      - Yes
@@ -122,7 +122,7 @@ The following table lists the supported attacks in BackdoorMBTI:
      - Yes
      - `Trojaning Attack on Neural Network <https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2782&context=cstech>`_
    * - Image
-     - ubw(under test)
+     - ubw
      - Invisible
      - Global
      - Yes
@@ -179,35 +179,35 @@ The following table lists the supported attacks in BackdoorMBTI:
      - `Hidden Killer: Invisible Textual Backdoor Attacks with Syntactic Trigger <https://arxiv.org/pdf/2105.12400.pdf>`_
    * - Audio
      - Baasv(under test)
-     - -
+     - \-
      - Global
      - Yes
      - No
      - `Backdoor Attack against Speaker Verification <https://arxiv.org/pdf/2010.11607>`_
    * - Audio
      - Blend
-     - -
+     - \-
      - Local
      - Yes
      - No
      - `Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning <https://arxiv.org/abs/1712.05526v1>`_
    * - Audio
      - DABA
-     - -
+     - \-
      - Global
      - Yes
      - No
      - `Opportunistic Backdoor Attacks: Exploring Human-imperceptible Vulnerabilities on Speech Recognition Systems <https://dl.acm.org/doi/abs/10.1145/3503161.3548261>`_
    * - Audio
      - GIS
-     - -
+     - \-
      - Global
      - No
      - No
      - `Going in style: Audio backdoors through stylistic transformations <https://arxiv.org/pdf/2211.03117>`_
    * - Audio
      - UltraSonic
-     - -
+     - \-
      - Local
      - Yes
      - No
