@@ -36,7 +36,7 @@ The following table lists the supported attacks in BackdoorMBTI:
      - Global
      - Yes
      - Yes
-     - `A NEW BACKDOOR ATTACK IN CNNS BY TRAINING SET CORRUPTION WITHOUT LABEL POISONING <https://arxiv.org/abs/1712.05526v1>`_
+     - `Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning <https://arxiv.org/abs/1712.05526v1>`_
    * - Image
      - Blind(under test)
      - Visible
