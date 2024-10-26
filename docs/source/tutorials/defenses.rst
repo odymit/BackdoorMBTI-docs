@@ -58,3 +58,15 @@ The following table lists the supported defenses in BackdoorMBTI:
      - post-training
      - clean model, trigger pattern
      - `Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks <https://par.nsf.gov/servlets/purl/10120302>`__
+   * - MNTD
+     - Image
+     - backdoor model
+     - post-training
+     - detection result
+     - `Detecting AI Trojans  Using Meta Neural Analysis <https://arxiv.org/pdf/1910.03137>`__
+   * - FreeEagle
+     - Image
+     - backdoor model
+     - post-training
+     - detection result
+     - `FREEEAGLE: Detecting Complex Neural Trojans in Data-Free Cases <https://www.usenix.org/system/files/usenixsecurity23-fu-chong.pdf>`__
