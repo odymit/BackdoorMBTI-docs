@@ -2,7 +2,7 @@ Poison Dataset Wrapper
 ======================
 
 
-The `Poison Dataset Wrapper` is implemented in the `BackdoorMBTI/utils/data.py` file and provides a class, `BadSet`, for managing datasets with poisoned samples. This wrapper allows users to inject specific labels into a dataset at a controlled rate, making it especially useful for creating backdoor attacks in machine learning datasets.
+The ``Poison Dataset Wrapper`` is implemented in the ``BackdoorMBTI/utils/data.py`` file and provides a class, `BadSet`, for managing datasets with poisoned samples. This wrapper allows users to inject specific labels into a dataset at a controlled rate, making it especially useful for creating backdoor attacks in machine learning datasets.
 
 .. code-block:: python
 
@@ -44,7 +44,7 @@ Class Parameters
 Main Methods
 ------------
 
-### _get_poison_dataset
+**_get_poison_dataset**
 
 Loads the poisoned dataset from the specified `poison_set_path`. Raises `FileNotFoundError` if the file is missing.
 
@@ -58,7 +58,7 @@ Loads the poisoned dataset from the specified `poison_set_path`. Raises `FileNot
        return torch.load(data_path)
 
 
-### _pop
+**_pop**
 
 Removes classes from the dataset other than the target label. This is useful for focusing the dataset on the specific label being targeted in the poisoning attack.
 
@@ -68,7 +68,7 @@ Removes classes from the dataset other than the target label. This is useful for
        """Remove classes other than the target label from the dataset."""
 
 
-### _mis_label
+**_mis_label**
 
 For non-poisoned samples, randomly assigns an incorrect label. This method is particularly useful during training to add label noise.
 
@@ -79,7 +79,7 @@ For non-poisoned samples, randomly assigns an incorrect label. This method is pa
        return (target + random.randint(1, num_classes)) % num_classes
 
 
-### get_poisoned_index
+**get_poisoned_index**
 
 Determines which data samples to poison based on the `poison_rate` and `seed`. It returns a dictionary with the indices of poisoned samples.
 
@@ -93,7 +93,7 @@ Determines which data samples to poison based on the `poison_rate` and `seed`. I
        return {int(idx): 1 for idx in indices}
 
 
-### __getitem__
+**__getitem__**
 
 Retrieves a data sample by index. If the sample is in the poisoned index or if the mode is "test", it assigns the `target_label` as the sample label. Supports different data types including image, text, audio, and video.
 
@@ -108,7 +108,7 @@ Retrieves a data sample by index. If the sample is in the poisoned index or if t
            return ...  # Logic for benign data
 
 
-### __len__
+**__len__**
 
 Returns the total length of the poisoned dataset.
 
