@@ -29,7 +29,7 @@ Class Parameters
 
 - **benign_set**: The original, clean dataset.
 - **poison_set_path**: Path to the poisoned dataset.
-- **type**: Data type (e.g., "image", "text", "audio").
+- **type**: Data type (e.g., "image", "text", "audio", "video").
 - **dataset**: The name of the dataset being used.
 - **attack**: Specifies the type of attack for which the poison data is created.
 - **num_classes**: (Optional) Number of classes in the dataset.
