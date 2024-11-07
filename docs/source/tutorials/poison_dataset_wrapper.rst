@@ -2,7 +2,7 @@ Poison Dataset Wrapper
 ======================
 
 
-The ``Poison Dataset Wrapper`` is implemented in the ``BackdoorMBTI/utils/data.py`` file and provides a class, `BadSet`, for managing datasets with poisoned samples. This wrapper allows users to inject specific labels into a dataset at a controlled rate, making it especially useful for creating backdoor attacks in machine learning datasets.
+The ``Poison Dataset Wrapper`` is implemented in the ``BackdoorMBTI/utils/data.py`` file and provides a class, ``BadSet``, for managing datasets with poisoned samples. This wrapper allows users to inject specific labels into a dataset at a controlled rate, making it especially useful for creating backdoor attacks in machine learning datasets.
 
 .. code-block:: python
 
