@@ -1,7 +1,7 @@
 Change Logs
 ===========
 
-2024-10-15
+2024-10-13
 -----------
 - **Initialized documentation framework**: Established the overall structure for the Read the Docs documentation.
 
@@ -40,3 +40,64 @@ Change Logs
       - `changelog.rst`: Changelog file to track documentation updates.
 
   - **Updated index.rst**: Linked all newly created `.rst` files in `index.rst` to provide a structured navigation within the documentation.
+
+
+2024-10-15
+-----------
+- **Updated document framework**: Corrected minor errors in the overall documentation structure.
+- **Added content to contributing.rst**: Included a guide to help new contributors get started with BackdoorMBTI.
+- **Added content to models.rst**: Documented instructions on defining and registering custom models, along with data preprocessing transformations.
+  
+
+2024-10-16
+-----------
+- **Added content to getting_started.rst**: Created a quick start guide for BackdoorMBTI, including steps for downloading data, running backdoor attacks, and executing defense experiments.
+- **Added content to tasks.rst**: Documented the various tasks supported by BackdoorMBTI, including new tasks like video, audiovisual, VQA, and contrastive learning.
+- **Modified models.rst**: Updated the `def load_model(args):` function to improve functionality.
+- **Updated titles**: Adjusted and standardized section titles across the documentation.
+- **Revised getting_started.rst**: Made additional updates to the content for clarity and completeness.
+- **Fixed error in install.rst**: Corrected minor errors in the installation guide.
+
+
+2024-10-17
+-----------
+- **Updated getting_started.rst**: Continued making improvements to the quick start guide.
+- **Modified tasks.rst**: Added descriptions for new tasks: Contrastive Learning (CL) and Visual Question Answering (VQA).
+- **Filled content in add_new_attacks.rst**: Added a guide on how to implement new backdoor attacks, using an example similar to the image-based `BadNet` attack.
+  
+
+2024-10-18
+-----------
+- **Updated titles in tasks.rst**: Revised section titles for improved readability.
+- **Modified add_new_models.rst and contributing.rst**: Made formatting adjustments to ensure consistency in `.rst` structure.
+  
+
+2024-10-26
+-----------
+- **Filled content in defenses.rst**: Added a table listing the supported defenses in BackdoorMBTI.
+
+
+2024-10-24
+-----------
+- **Modified attacks.rst**: Made additional content adjustments for clarity.
+
+
+2024-10-23
+-----------
+- **Filled content in models.rst**: Provided an overview of models used in the project, categorized by task type.
+- **Modified attacks.rst**: Adjusted content for improved organization and readability.
+
+
+2024-10-22
+-----------
+- **Updated add_new_defenses.rst**: Corrected `.rst` formatting issues for consistency.
+
+
+2024-10-20
+-----------
+- **Filled content in add_new_defenses.rst**: Added a guide on implementing new defense methods, using `STRIP` as an example for detecting poisoned data.
+
+
+2024-10-19
+-----------
+- **Filled content in add_new_datasets.rst**: Provided instructions on adding new datasets to BackdoorMBTI, with CIFAR-100 as an example.
