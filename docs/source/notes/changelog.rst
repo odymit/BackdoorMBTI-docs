@@ -1,8 +1,6 @@
 Change Logs
 ===========
 
-
-
 2024-10-15
 -----------
 - **Initialized documentation framework**: Established the overall structure for the Read the Docs documentation.
@@ -10,14 +8,13 @@ Change Logs
   - Created main sections under three categories:
 
     - **Tutorials**: Comprehensive guides and tutorials for users.
-
     - **API Documents**: Placeholder for detailed API documentation.
-
     - **Notes**: Additional information and project notes.
 
   - Created initial `.rst` files for each section:
 
     - **Tutorials**:
+    
       - `install.rst`: Installation instructions.
       - `getting_started.rst`: Quick start guide.
       - `tasks.rst`: Overview of supported tasks.
@@ -32,12 +29,14 @@ Change Logs
       - `adding_new_defenses.rst`: Guide for adding new defenses.
       - `configs.rst`: Configuration file guidelines.
 
-    - **API Documents**
+    - **API Documents**:
+    
+      - `api_reference.rst`: Placeholder for API reference documentation.
 
     - **Notes**:
+    
       - `scalability.rst`: Information on scalability strategies.
       - `contributing.rst`: Guidelines for contributing to BackdoorMBTI.
       - `changelog.rst`: Changelog file to track documentation updates.
 
   - **Updated index.rst**: Linked all newly created `.rst` files in `index.rst` to provide a structured navigation within the documentation.
-
