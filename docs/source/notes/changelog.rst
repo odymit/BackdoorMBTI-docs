@@ -101,3 +101,9 @@ Change Logs
 2024-10-26
 -----------
 - **Filled content in** ``defenses.rst``: Added a table listing the supported defenses in BackdoorMBTI.
+
+
+2024-11-07
+-----------
+- **Filled content in** ``poison_dataset_wrapper.rst``: This wrapper allows users to inject specific labels into a dataset at a controlled rate, making it especially useful for creating backdoor attacks in machine learning datasets.
+- **Filled content in** ``configs.rst``: The ``Configs`` directory contains various configuration files and settings used for attacks, defenses, and training in the backdoor learning system.
